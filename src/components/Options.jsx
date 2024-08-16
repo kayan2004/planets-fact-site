@@ -40,7 +40,7 @@ const Options = ({ planet, onClick, currentOption, className }) => {
   }
   return (
     <ul
-      className={`${className} flex md:flex-col w-full justify-between row-span-1 col-span-1  font-spartan font-semibold text-xs uppercase tracking-widest text-white   md:gap-3 md:row-start-2 md:row-end-2 md:col-start-2
+      className={`${className} py-8 md:py-0 flex md:flex-col w-full justify-between row-span-1 col-span-1  font-spartan font-semibold text-xs uppercase tracking-widest text-white   md:gap-3 md:row-start-2 md:row-end-2 md:col-start-2
       lg:row-start-2 lg:row-end-2 lg:col-start-3 lg:h-3/5 justify-self-start self-start`}
     >
       <li

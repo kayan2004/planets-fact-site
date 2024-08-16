@@ -19,19 +19,19 @@ const MenuIcon = ({ onClick }) => {
   );
 };
 
-const Header = ({ handleSetPlanet, planet }) => {
+const Header = ({ handleSetPlanet }) => {
   const [visible, setVisible] = useState(false);
   console.log(visible);
   const toggleVisibility = () => {
     setVisible(!visible);
   };
   return (
-    <header className="bg-black text-white grid grid-rows-[auto_auto] grid-cols-2 gap-6  p-8 py-0 md:grid-cols-1 lg:flex lg:justify-between lg:pb-6">
+    <header className="bg-black text-white flex justify-between md:grid grid-rows-[auto_auto] grid-cols-2 gap-6  p-8 py-0 md:grid-cols-1 lg:flex lg:justify-between lg:pb-6">
       <h1 className="font-antonio font-light uppercase text-3xl mt-8 md:text-center justify-self-start self-center md:justify-self-center">
         The planets
       </h1>
       <MenuIcon onClick={toggleVisibility}></MenuIcon>
-      <hr className="absolute left-0 right-0 top-24 w-screen border-t border-gray-300 opacity-20 md:hidden " />
+      <hr className="absolute left-0 right-0 top-24 w-screen border-t border-gray-300 opacity-20 md:hidden" />
       <Navbar
         toggleVisibility={toggleVisibility}
         handleSetPlanet={handleSetPlanet}

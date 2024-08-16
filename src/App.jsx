@@ -7,7 +7,7 @@ function App() {
     setPlanet(planet);
   };
   return (
-    <div className="flex flex-col bg-black bg-[url('/svg/background-stars.svg')] h-lvh">
+    <div className=" overflow-scroll p-0 m-0 flex flex-col bg-black bg-[url('/svg/background-stars.svg')] h-full lg:h-screen">
       <Header planet={planet} handleSetPlanet={handleSetPlanet}></Header>
       <hr className="hidden w-screen h-0.5 bg-linebreak md:block"></hr>
       <Planet planet={planet}></Planet>

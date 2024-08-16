@@ -41,7 +41,7 @@ const Planet = ({ planet }) => {
   const currentPlanetData = data[planetIndex];
 
   return (
-    <div className=" flex flex-col items-center justify-center gap-10 text-white p-8 pt-0 grid-cols-1 grid-rows-3 md:grid md:grid-au md:grid-cols-2 md:grid-rows-[auto_auto_auto] lg:grid-cols-3 lg:px-52 lg:py-12  ">
+    <div className=" flex flex-col items-center justify-center gap-10 text-white p-8 pt-0 grid-cols-1 grid-rows-3 md:grid md:grid-au md:grid-cols-2 md:grid-rows-[auto_auto_auto] lg:grid-cols-3 lg:px-60 lg:pt-28 ">
       <Options
         planet={planet}
         currentOption={currentOption}
@@ -55,12 +55,12 @@ const Planet = ({ planet }) => {
               ? currentPlanetData.images.internal
               : currentPlanetData.images.planet
           }
-          className="w-28 h-28 md:w-44 md:h-44 lg:w-72 lg:h-72"
+          className="w-28 h-auto md:w-44  lg:w-72 "
         ></img>
         <div
           className={`${
             currentOption === 2 ? "" : "hidden"
-          } absolute top-20 md:top-32 lg:top-44`}
+          } absolute top-20 md:top-32 lg:top-52`}
         >
           <img
             src={currentPlanetData.images.geology}
