@@ -3,7 +3,7 @@
 const Navbar = ({ className, handleSetPlanet, toggleVisibility }) => {
   return (
     <nav
-      className={`${className} row-span-2 col-start-1 col-end-3  w-full  z-10  h-svh md:h-min lg:w-1/2  `}
+      className={`${className} col-start-1 col-end-3  w-full  z-10  h-svh md:pb-8 md:h-min lg:w-1/2  `}
     >
       <ul className="text-base font-bold text-white md:font-semibold md:text-xs tracking-widest uppercase flex flex-col justify-evenly md:flex-row h-full ">
         <li
