@@ -52,7 +52,7 @@ const Options = ({ planet, onClick, currentOption, className }) => {
           currentOption === 0
             ? ` border-b-2 ${border} ${background} md:border-0 `
             : ``
-        }  font-spartan font-bold text-xs py-6 px-4 flex gap-4`}
+        }  font-spartan font-bold text-xs py-6  flex gap-4`}
         tabIndex={0}
       >
         <span className="hidden md:inline-block opacity-50">01</span>
@@ -73,7 +73,7 @@ const Options = ({ planet, onClick, currentOption, className }) => {
           currentOption === 1
             ? ` border-b-2 ${border} ${background} md:border-0 `
             : ``
-        }  font-spartan font-bold font-xs py-6 px-4 flex gap-4`}
+        }  font-spartan font-bold font-xs py-6  flex gap-4`}
         tabIndex={0}
       >
         <span className="hidden md:inline-block opacity-50">02</span>
@@ -94,7 +94,7 @@ const Options = ({ planet, onClick, currentOption, className }) => {
           currentOption === 2
             ? ` border-b-2 ${border} ${background} md:border-0 `
             : ``
-        }  font-spartan font-bold font-xs py-6 px-4 flex gap-4`}
+        }  font-spartan font-bold font-xs py-6  flex gap-4`}
         tabIndex={0}
       >
         <span className="hidden md:inline-block opacity-50">03</span>

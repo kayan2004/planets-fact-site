@@ -26,7 +26,7 @@ const Header = ({ handleSetPlanet }) => {
     setVisible(!visible);
   };
   return (
-    <header className="bg-black text-white grid grid-rows-[auto_auto] grid-cols-2 gap-6  p-8 py-0 md:grid-cols-1 lg:flex lg:justify-between ">
+    <header className="bg-black text-white grid grid-rows-[auto_auto] grid-cols-2 gap-y-6  p-8 py-0 md:grid-cols-1 lg:flex lg:justify-between ">
       <h1 className="font-antonio font-light uppercase text-3xl mt-8 md:text-center justify-self-start self-center md:justify-self-center ">
         The planets
       </h1>
