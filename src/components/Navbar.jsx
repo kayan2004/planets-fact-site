@@ -11,7 +11,7 @@ const Navbar = ({ className, handleSetPlanet, toggleVisibility }) => {
             handleSetPlanet("mercury");
             toggleVisibility();
           }}
-          className={`font-spartan cursor-pointer  hover:font-light gap-4 py-4 flex items-center border-linebreak border-b md:border-b-0 md:p-0 lg:hover:border-t-2 lg:border-blue lg:pt-12`}
+          className={`font-spartan cursor-pointer  hover:font-light gap-4 py-4 flex items-center border-linebreak border-b md:border-b-0 md:p-0 lg:hover:border-t-2 lg:border-mercury lg:pt-12`}
         >
           <div className="rounded-full bg-white h-4 w-4 md:hidden "></div>
           <span className="">mercury</span>
@@ -30,7 +30,7 @@ const Navbar = ({ className, handleSetPlanet, toggleVisibility }) => {
             handleSetPlanet("venus");
             toggleVisibility();
           }}
-          className="font-spartan cursor-pointer  hover:font-light gap-4 py-4 flex items-center border-linebreak border-b md:border-b-0 md:p-0 lg:hover:border-t-2 lg:border-blue lg:pt-12"
+          className={`font-spartan cursor-pointer  hover:font-light gap-4 py-4 flex items-center border-linebreak border-b md:border-b-0 md:p-0 lg:hover:border-t-2 lg:border-venus lg:pt-12`}
         >
           <div className="rounded-full bg-venus h-4 w-4 md:hidden "></div>
           <span className="">venus</span>
@@ -48,7 +48,7 @@ const Navbar = ({ className, handleSetPlanet, toggleVisibility }) => {
             handleSetPlanet("earth");
             toggleVisibility();
           }}
-          className="font-spartan cursor-pointer  hover:font-light gap-4 py-4 flex items-center border-linebreak  border-b md:border-b-0 md:p-0 lg:hover:border-t-2 lg:border-blue lg:pt-12"
+          className={`font-spartan cursor-pointer  hover:font-light gap-4 py-4 flex items-center border-linebreak border-b md:border-b-0 md:p-0 lg:hover:border-t-2 lg:border-earth  lg:pt-12`}
         >
           {" "}
           <div className="rounded-full bg-earth h-4 w-4 md:hidden "></div>
@@ -67,7 +67,7 @@ const Navbar = ({ className, handleSetPlanet, toggleVisibility }) => {
             handleSetPlanet("mars");
             toggleVisibility();
           }}
-          className="font-spartan cursor-pointer  hover:font-light gap-4 py-4 flex items-center border-linebreak  border-b md:border-b-0 md:p-0 lg:hover:border-t-2 lg:border-blue lg:pt-12"
+          className={`font-spartan cursor-pointer  hover:font-light gap-4 py-4 flex items-center border-linebreak border-b md:border-b-0 md:p-0 lg:hover:border-t-2 lg:border-mars  lg:pt-12`}
         >
           {" "}
           <div className="rounded-full bg-red h-4 w-4 md:hidden "></div>
@@ -86,7 +86,7 @@ const Navbar = ({ className, handleSetPlanet, toggleVisibility }) => {
             handleSetPlanet("jupiter");
             toggleVisibility();
           }}
-          className="font-spartan cursor-pointer  hover:font-light gap-4 py-4 flex items-center border-linebreak  border-b md:border-b-0 md:p-0 lg:hover:border-t-2 lg:border-blue lg:pt-12"
+          className={`font-spartan cursor-pointer  hover:font-light gap-4 py-4 flex items-center border-linebreak border-b md:border-b-0 md:p-0 lg:hover:border-t-2 lg:border-jupiter  lg:pt-12`}
         >
           {" "}
           <div className="rounded-full bg-jupiter h-4 w-4 md:hidden "></div>
@@ -105,7 +105,7 @@ const Navbar = ({ className, handleSetPlanet, toggleVisibility }) => {
             handleSetPlanet("saturn");
             toggleVisibility();
           }}
-          className="font-spartan cursor-pointer  hover:font-light gap-4 py-4 flex items-center border-linebreak border-b md:border-b-0 md:p-0 lg:hover:border-t-2 lg:border-blue lg:pt-12"
+          className={`font-spartan cursor-pointer  hover:font-light gap-4 py-4 flex items-center border-linebreak border-b md:border-b-0 md:p-0 lg:hover:border-t-2 lg:border-saturn  lg:pt-12`}
         >
           {" "}
           <div className="rounded-full bg-saturn h-4 w-4 md:hidden "></div>
@@ -124,7 +124,7 @@ const Navbar = ({ className, handleSetPlanet, toggleVisibility }) => {
             handleSetPlanet("uranus");
             toggleVisibility();
           }}
-          className="font-spartan cursor-pointer  hover:font-light gap-4 py-4 flex items-center border-linebreak  border-b md:border-b-0 md:p-0 lg:hover:border-t-2 lg:border-blue lg:pt-12"
+          className={`font-spartan cursor-pointer  hover:font-light gap-4 py-4 flex items-center border-linebreak border-b md:border-b-0 md:p-0 lg:hover:border-t-2 lg:border-uranus  lg:pt-12`}
         >
           {" "}
           <div className="rounded-full bg-uranus h-4 w-4 md:hidden "></div>
@@ -143,7 +143,7 @@ const Navbar = ({ className, handleSetPlanet, toggleVisibility }) => {
             handleSetPlanet("neptune");
             toggleVisibility();
           }}
-          className="font-spartan cursor-pointer  hover:font-light gap-4 py-4 flex items-center border-linebreak  border-b md:border-b-0 md:p-0 lg:hover:border-t-2 lg:border-blue lg:pt-12"
+          className={`font-spartan cursor-pointer  hover:font-light gap-4 py-4 flex items-center border-linebreak border-b md:border-b-0 md:p-0 lg:hover:border-t-2 lg:border-neptune  lg:pt-12`}
         >
           {" "}
           <div className="rounded-full bg-neptune h-4 w-4 md:hidden "></div>
