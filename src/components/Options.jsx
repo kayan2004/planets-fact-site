@@ -51,8 +51,8 @@ const Options = ({ planet, onClick, currentOption, className }) => {
         className={`${
           currentOption === 0
             ? ` border-b-2 ${border} ${background} md:border-0 `
-            : ``
-        }  font-spartan font-bold text-xs py-6  flex gap-4`}
+            : `md:border border-white border-opacity-40 hover:bg-darkgrey`
+        }  font-spartan font-bold text-xs py-6 md:px-4 flex gap-4 cursor-pointer `}
         tabIndex={0}
       >
         <span className="hidden md:inline-block opacity-50">01</span>
@@ -72,8 +72,8 @@ const Options = ({ planet, onClick, currentOption, className }) => {
         className={`${
           currentOption === 1
             ? ` border-b-2 ${border} ${background} md:border-0 `
-            : ``
-        }  font-spartan font-bold font-xs py-6  flex gap-4`}
+            : `md:border border-white border-opacity-40 hover:bg-darkgrey`
+        }  font-spartan font-bold font-xs py-6 md:px-4 flex gap-4 cursor-pointer `}
         tabIndex={0}
       >
         <span className="hidden md:inline-block opacity-50">02</span>
@@ -93,8 +93,8 @@ const Options = ({ planet, onClick, currentOption, className }) => {
         className={`${
           currentOption === 2
             ? ` border-b-2 ${border} ${background} md:border-0 `
-            : ``
-        }  font-spartan font-bold font-xs py-6  flex gap-4`}
+            : `md:border border-white border-opacity-40 hover:bg-darkgrey`
+        }  font-spartan font-bold font-xs py-6 md:px-4 flex gap-4 cursor-pointer `}
         tabIndex={0}
       >
         <span className="hidden md:inline-block opacity-50">03</span>
