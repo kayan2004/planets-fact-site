@@ -9,6 +9,8 @@ This project is a simple website that presents interesting facts about the plane
 ## About
 
 The Planets Fact Site is designed to display information and fun facts about each of the planets in our solar system. The site features basic web technologies and demonstrates my early understanding of HTML, CSS, and some JavaScript.
+![See the live demo](planets-fact-site-gray-six.vercel.app)
+
 
 ## Why This Exists
 
