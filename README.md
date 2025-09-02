@@ -1,5 +1,7 @@
 # Planets Fact Site
 
+![Preview of the Planets Fact Site](./public/preview.png)
+
 Welcome to the **Planets Fact Site**!
 
 This project is a simple website that presents interesting facts about the planets in our solar system. It was created as my very first website project, serving as a learning experience and a showcase of my initial steps into web development.
